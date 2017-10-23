@@ -7,7 +7,6 @@
   width: 100%;
   height: 9.4em;
   background: rgb(240, 240, 240);
-
 }
 /*a la frase "horizontal menu"l dentro del bloque h1 le agregamos un tamaño de letra, un margen, relleno izquierdo y superior; y una altura de linea para ubicarla en el centro"*/
 h1 {
@@ -16,6 +15,7 @@ h1 {
   padding-top: 7px;
   padding-left: 4px;
   line-height: 60px;
+  font-family: 'Oswald', sans-serif; /* aolicamos el estilo de letra para el contenido de h1 "horizontal menu"*/
 }
 /*Al bloque div de clase menu (contiene la barra de menu) le atribuimos posicion fija(para mantenerla en esa posicion) hacia la izquierda" y un color negro*/
 .menu {
@@ -23,11 +23,12 @@ h1 {
   position: fixed;
   left: 15px;
   background-color: rgb(0, 0, 0);
+  font-family: 'Roboto', sans-serif;/* aolicamos el estilo de letra para los contenidos en la barra de menu*/
 }
 /*a los l bloques div de clase box(contiene los menu en si) a los contenidos le atribuimos una altura de linea, un tamaño de letra, un relleno,  un color negro y le atribuimos la posicion float hacia la izquierda para ponerlo en posicion horizontal"*/
 .box {
   line-height: 60px;
-  font-size: 25px;
+  font-size: 22px;
   padding-left: 20px;
   background-color: rgb(0, 0, 0);
   color: white;
